@@ -1,5 +1,6 @@
 TEMPLATE = app
-CONFIG += console c++11
+QMAKE_CXXFLAGS += -std=c++17
+CONFIG += console c++11 c++14
 CONFIG -= app_bundle
 CONFIG -= qt
 
