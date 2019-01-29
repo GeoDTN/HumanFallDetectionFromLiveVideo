@@ -1,3 +1,7 @@
+/*********************************
+* Written by: Tadewos Somano
+* Sept/2018
+*********************************/
 #include <math.h>
 #include <time.h>
 #include <iostream>
