@@ -7,9 +7,11 @@ using namespace cv;
 int main()
 {
     VideoCapture cap(0);
-    //Mat frame;
+
     int frame_width = cap.get(CV_CAP_PROP_FRAME_WIDTH);
+
     int frame_height = cap.get(CV_CAP_PROP_FRAME_HEIGHT);
+
     if(!cap.isOpened())
       {
         cout << "Error opening video stream" << endl;
@@ -28,6 +30,7 @@ int main()
           break;
 
         // Write the frame into the file 'outcpp.avi'
+
         video.write(frame);
 
         // Display the resulting frame

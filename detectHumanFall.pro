@@ -8,7 +8,7 @@ SOURCES += \
 
 INCLUDEPATH += /usr/local/include/opencv /usr/local/include/opencv2
 LIBS += `pkg-config  opencv --libs`
-#LIBS += -L/usr/local/lib/
+
 LIBS += -L/usr/local/lib/ \
         -lopencv_core \
         -lopencv_highgui \
